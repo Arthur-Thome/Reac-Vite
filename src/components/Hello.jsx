@@ -1,7 +1,9 @@
-function Hello(props){
-    const nome = props.nome ?props.nome: 'World'
+function Hello({nome}){
+    // const nome = props.nome ?props.nome: 'World'
     return(
-        <h3>Hello {nome}!</h3>
+        (nome)
+        ? (<h3>Hello {nome}!</h3>)
+        : (<h3>Hello World!</h3>)
     )
 }
 

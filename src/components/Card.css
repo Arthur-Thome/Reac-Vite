@@ -1,0 +1,27 @@
+.cardFull{
+    display: block;
+    justify-content: space-around;
+    border: 2px solid #000;
+    flex-wrap: nowrap;
+    width: 50%;
+}
+
+.card{
+    margin: 0 auto;
+    border: 2px solid #000;
+    border-radius: 15px;
+
+}
+
+.card-titulo{
+    background-color: #000;
+    color: white;
+    text-align: center;
+}
+
+.card-conteudo{
+    background-color: #fff;
+    color: #000;
+    margin: 10px;
+
+}
