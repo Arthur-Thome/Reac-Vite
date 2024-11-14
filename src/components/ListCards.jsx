@@ -1,4 +1,4 @@
-import Card from "./components/Card"
+import Card from "./Card"
 
 
 export default function ListCards(){
@@ -10,7 +10,7 @@ export default function ListCards(){
 
     return (
         lista.map(produto =>
-            <Card titulo={produto.nome}>
+            <Card key ={produto.id} titulo={produto.nome}>
                 <h3>{produto.preco}</h3>
             </Card>
 
