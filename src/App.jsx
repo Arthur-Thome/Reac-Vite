@@ -1,5 +1,6 @@
 import Card from "./components/Card"
 import Hello from "./components/Hello"
+import ListCards from "./components/ListCards"
 
 function App() {
   const name = "Fulano"
@@ -9,14 +10,15 @@ function App() {
     <Hello />
     <Hello nome="Arthur" />
     <Hello nome={name}/>
-    <Card titulo="Livro 1">
+    <Card titulo="Titulo 1">
       <h3>Descrição</h3>
       <p>Detalhe</p>
     </Card>
-    <Card titulo="Livro 2">
+    <Card titulo="Titulo 2">
       <h3>Descrição</h3>
       <p>Detalhe</p>
     </Card>
+    <ListCards />
     </>
   )
 }
